@@ -1,6 +1,21 @@
 # whiteboard
 A simple whiteboard React app
 
+#### `Problem: Create a drawing board app, which contains a plain html canvas to let user draw and write on it.`
+1. Features
+  - Implement different types of drawing brush
+  - Pen: Makes permanent strokes, may vary width like 1, 3, 5 px.
+  - Highlighter: Make a stroke with width 5px and color opacity of 50%, gets removed from canvas when user draw next stroke.
+  - Eraser: Make strokes which removes the drawing part, drawn over.
+2. Implement tool to change color of pen and highlighter.
+3. Criterion you will be judged on
+  - Completeness and accuracy of all features implemented.
+  - Coverage of corner cases.
+  - Code quality and structure of your app.
+  - UI and UX of the app.
+
+No restriction on language and framework to be used.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -25,6 +40,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
